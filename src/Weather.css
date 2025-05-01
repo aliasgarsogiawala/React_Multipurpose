@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Global styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: image-set("https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg");
+}
+
+
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-info {
+  margin-top: 2rem;
+}
+
+.weather-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
